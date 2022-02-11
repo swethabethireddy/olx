@@ -1,0 +1,137 @@
+{
+	"name": "DelimitedText1",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "AzureDataLakeStorage_gen2lnk",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobFSLocation",
+				"fileName": "movie_metadata.csv",
+				"folderPath": "raw",
+				"fileSystem": "swefilesystem1"
+			},
+			"columnDelimiter": ",",
+			"escapeChar": "\\",
+			"firstRowAsHeader": true,
+			"quoteChar": "\""
+		},
+		"schema": [
+			{
+				"name": "color",
+				"type": "String"
+			},
+			{
+				"name": "director_name",
+				"type": "String"
+			},
+			{
+				"name": "num_critic_for_reviews",
+				"type": "String"
+			},
+			{
+				"name": "duration",
+				"type": "String"
+			},
+			{
+				"name": "director_facebook_likes",
+				"type": "String"
+			},
+			{
+				"name": "actor_3_facebook_likes",
+				"type": "String"
+			},
+			{
+				"name": "actor_2_name",
+				"type": "String"
+			},
+			{
+				"name": "actor_1_facebook_likes",
+				"type": "String"
+			},
+			{
+				"name": "gross",
+				"type": "String"
+			},
+			{
+				"name": "genres",
+				"type": "String"
+			},
+			{
+				"name": "actor_1_name",
+				"type": "String"
+			},
+			{
+				"name": "movie_title",
+				"type": "String"
+			},
+			{
+				"name": "num_voted_users",
+				"type": "String"
+			},
+			{
+				"name": "cast_total_facebook_likes",
+				"type": "String"
+			},
+			{
+				"name": "actor_3_name",
+				"type": "String"
+			},
+			{
+				"name": "facenumber_in_poster",
+				"type": "String"
+			},
+			{
+				"name": "plot_keywords",
+				"type": "String"
+			},
+			{
+				"name": "movie_imdb_link",
+				"type": "String"
+			},
+			{
+				"name": "num_user_for_reviews",
+				"type": "String"
+			},
+			{
+				"name": "language",
+				"type": "String"
+			},
+			{
+				"name": "country",
+				"type": "String"
+			},
+			{
+				"name": "content_rating",
+				"type": "String"
+			},
+			{
+				"name": "budget",
+				"type": "String"
+			},
+			{
+				"name": "title_year",
+				"type": "String"
+			},
+			{
+				"name": "actor_2_facebook_likes",
+				"type": "String"
+			},
+			{
+				"name": "imdb_score",
+				"type": "String"
+			},
+			{
+				"name": "aspect_ratio",
+				"type": "String"
+			},
+			{
+				"name": "movie_facebook_likes",
+				"type": "String"
+			}
+		]
+	}
+}
